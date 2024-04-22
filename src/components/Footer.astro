@@ -1,4 +1,5 @@
 ---
+import { marked } from 'marked';
 import siteConfig from '../data/site-config';
 
 const socialLinks = siteConfig.socialLinks || [];
@@ -39,8 +40,12 @@ const navLinks = siteConfig.footerNavLinks || [];
                 </div>
             )
         }
-        <p class="text-sm">
-            &copy; {new Date().getFullYear()}&nbsp;<a class="hover:underline hover:underline-offset-2" href="/">{siteConfig.title}</a>. All rights reserved.
+        <p class="text-sm block">
+            <a
+                class="hover:underline hover:underline-offset-2"
+                href="/"
+                set:html={marked.parse('&copy;' + new Date().getFullYear() + '&nbsp;' + siteConfig.title + ' All rights reserved. ')}
+            />
         </p>
     </div>
 </footer>

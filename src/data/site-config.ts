@@ -12,6 +12,7 @@ export type Link = {
 export type Hero = {
     title?: string;
     text?: string;
+    text2?: string;
     image?: Image;
     actions?: Link[];
 };
@@ -25,6 +26,7 @@ export type Subscribe = {
 export type SiteConfig = {
     logo?: Image;
     title: string;
+    heading: string;
     subtitle?: string;
     description: string;
     image?: Image;
@@ -38,9 +40,10 @@ export type SiteConfig = {
 };
 
 const siteConfig: SiteConfig = {
-    title: 'Dante',
-    subtitle: 'Minimal Astro.js theme',
-    description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
+    title: 'Akanksha Gajankar',
+    heading: 'HELLO! <br/> I&apos;M AKANKSHA',
+    subtitle: '',
+    description: '',
     image: {
         src: '/dante-preview.jpg',
         alt: 'Dante - Astro.js and Tailwind CSS theme'
@@ -72,14 +75,7 @@ const siteConfig: SiteConfig = {
             text: 'Contact',
             href: '/contact'
         },
-        {
-            text: 'Terms',
-            href: '/terms'
-        },
-        {
-            text: 'Download theme',
-            href: 'https://github.com/JustGoodUI/dante-astro-theme'
-        }
+
     ],
     socialLinks: [
         {
@@ -96,11 +92,12 @@ const siteConfig: SiteConfig = {
         }
     ],
     hero: {
-        title: 'Hi There & Welcome to My Corner of the Web!',
-        text: "I'm **Ethan Donovan**, a web developer at Amazing Studio, dedicated to the realms of collaboration and artificial intelligence. My approach involves embracing intuition, conducting just enough research, and leveraging aesthetics as a catalyst for exceptional products. I have a profound appreciation for top-notch software, visual design, and the principles of product-led growth. Feel free to explore some of my coding endeavors on <a href='https://github.com/JustGoodUI/dante-astro-theme'>GitHub</a> or follow me on <a href='https://twitter.com/justgoodui'>Twitter/X</a>.",
+        title: '',
+        text: "I'm a uiux designer passionate about crafting and exploring experiences <br/> that stay with you.",
+        text2: "This is a showcase of my <br/> professional and personal work. <br/>I hope you enjoy it.",
         image: {
-            src: '/hero.jpeg',
-            alt: 'A person sitting at a desk in front of a computer'
+            src: '',
+            alt: ''
         },
         actions: [
             {
