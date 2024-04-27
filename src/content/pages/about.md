@@ -12,9 +12,9 @@ seo:
 
 
 
-## Akanksha Gajankar - UxUi Designer based in Estonia
+## Akanksha Gajankar - UxUi Designer based in Goa
 
-**Greetings!** I'm Akanksha Gajankar, a passionate UxUi Designer residing in the picturesque landscapes of [Estonia](https://en.wikipedia.org/wiki/Estonia). With a keen eye for design and a love for crafting seamless digital experiences, I bring a unique blend of creativity and technical expertise to the world of web development.
+**Greetings!** I'm Akanksha Gajankar, a passionate UxUi Designer residing in the picturesque landscapes of [Goa](https://en.wikipedia.org/wiki/Goa). With a keen eye for design and a love for crafting seamless digital experiences, I bring a unique blend of creativity and technical expertise to the world of web development.
 
 ## Skills and Expertise
 
@@ -26,7 +26,7 @@ I thrive on solving complex problems and transforming ideas into functional, ele
 
 ## Global Perspective, Local Impact
 
-Living in Estonia has not only influenced my appreciation for nature and culture but has also shaped my approach to web development. I understand the importance of creating digital solutions that resonate with local audiences while maintaining a global perspective.
+Living in Goa has not only influenced my appreciation for nature and culture but has also shaped my approach to web development. I understand the importance of creating digital solutions that resonate with local audiences while maintaining a global perspective.
 
 ## Continuous Learning
 
