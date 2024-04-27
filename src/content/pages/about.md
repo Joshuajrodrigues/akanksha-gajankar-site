@@ -9,7 +9,7 @@ seo:
 ---
 
 
-![I being a cute unicorn](/about.jpeg)
+[<img src="/about.jpeg" width="250" height="250" alt="I being a cute unicorn" />](/about.jpeg)
 
 
 
