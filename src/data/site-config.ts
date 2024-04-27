@@ -93,7 +93,7 @@ const siteConfig: SiteConfig = {
     ],
     hero: {
         title: '',
-        text: "I'm a uiux designer passionate about crafting and exploring experiences <br/> that stay with you.",
+        text: "I'm a <span class='text-blue-500'> uiux designer </span> passionate about crafting and  <span class='text-blue-500'> exploring experiences </span> <br/> that stay with you.",
         text2: "This is a showcase of my <br/> professional and personal work. <br/>I hope you enjoy it.",
         image: {
             src: '',

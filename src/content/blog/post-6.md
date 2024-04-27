@@ -27,7 +27,7 @@ JavaScript emerged as a powerful tool for adding interactivity to web pages. Thi
 
 ## The Era of Browser Wars (Late 1990s - Early 2000s)
 
-During this period, web developers faced challenges due to the "browser wars" between Internet Explorer and Netscape Navigator. Cross-browser compatibility became a significant concern, leading to the development of various JavaScript libraries and frameworks to help tackle these issues.
+During this period, UxUi Designers faced challenges due to the "browser wars" between Internet Explorer and Netscape Navigator. Cross-browser compatibility became a significant concern, leading to the development of various JavaScript libraries and frameworks to help tackle these issues.
 
 ## The Web 2.0 Revolution (Mid-2000s)
 
