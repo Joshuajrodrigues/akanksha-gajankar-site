@@ -22,8 +22,11 @@ seo:
 <span class=" w-full md:w-1/2 text-wrap">
  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.
  
-  It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum 
+ It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum 
  </span>
  </div>
 
  ### Things I like
+#### I like cats, writing, MAMAMOO, Taylor Swift and storytelling. I've recently taken up korean and so far I think Im doing alright with it.
+
+ ### Things I Recomend
