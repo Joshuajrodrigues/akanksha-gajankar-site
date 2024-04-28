@@ -6,7 +6,7 @@ export type Image = {
 
 export type Link = {
     text: string;
-    href: string;
+    href?: string;
 };
 
 export type Hero = {
@@ -109,10 +109,14 @@ const siteConfig: SiteConfig = {
         },
         actions: [
             {
+                text: 'Resume'
+            },
+            {
                 text: 'Let\'s talk',
                 href: '/contact'
-            }
-        ]
+            },
+        ],
+
     },
     subscribe: {
         title: 'Subscribe to Dante Newsletter',
