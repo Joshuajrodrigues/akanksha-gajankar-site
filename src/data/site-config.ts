@@ -108,12 +108,10 @@ const siteConfig: SiteConfig = {
             src: './maui.webm'
         },
         actions: [
+
             {
-                text: 'Resume'
-            },
-            {
-                text: 'Let\'s talk',
-                href: '/contact'
+                text: 'About Me',
+                href: '/about'
             },
         ],
 

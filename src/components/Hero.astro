@@ -22,6 +22,12 @@ const hero = siteConfig.hero;
             {hero.text2 && <div class="max-w-none text-right  prose prose-dante sm:prose-lg uppercase" set:html={marked.parse(hero.text2)} />}
             {hero.actions && hero.actions.length > 0 && (
                 <div class="flex flex-wrap gap-4">
+                    <Button class={'bg-blue-700 text-white hover:bg-blue-600 '}>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 2048 2048">
+                            <path fill="currentColor" d="M384 2048v-128h1152v128zm1197-979l-621 626l-621-626l90-90l467 470V0h128v1449l467-470z" />
+                        </svg>
+                        Resume
+                    </Button>
                     {hero.actions.map((action) => (
                         <Button href={action.href}>{action.text}</Button>
                     ))}
