@@ -50,8 +50,8 @@ const siteConfig: SiteConfig = {
     subtitle: '',
     description: '',
     image: {
-        src: '/dante-preview.jpg',
-        alt: 'Dante - Astro.js and Tailwind CSS theme'
+        src: '',
+        alt: ''
     },
     headerNavLinks: [
         {
