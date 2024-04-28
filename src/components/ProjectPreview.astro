@@ -12,16 +12,22 @@ const TitleTag = headingLevel;
 ---
 
 <a class:list={['flex justify-between items-start gap-8 group', className]} href={`/projects/${project.slug}/`}>
-    <div class="grow">
-        {seo?.image?.src && <img src={cover?.src} alt={seo.image.alt || ''} width={cover?.width} height={cover?.height} />}
+    <div class="grow max-w-80">
+        {
+            seo?.image?.src && (
+                <div class=" bg-gray-200 max-w-96  min-h-64 flex justify-center items-center">
+                    <img src={seo?.image?.src || ''} alt={seo.image.alt || ''} class="max-w-64" />
+                </div>
+            )
+        }
         <TitleTag
-            class="text-xl leading-tight font-serif font-medium group-hover:underline group-hover:decoration-dashed group-hover:underline-offset-4 group-hover:decoration-1 sm:text-2xl"
+            class="text-xl text-blue-700 leading-tight font-serif font-medium group-hover:underline group-hover:decoration-dashed group-hover:underline-offset-4 group-hover:decoration-1 sm:text-2xl"
         >
             {title}
         </TitleTag>
-        {description && <div class="mt-1 text-sm leading-normal">{description}</div>}
-    </div>
-    <div class="hidden font-serif italic opacity-0 transition group-hover:opacity-100 sm:inline-flex sm:gap-1 sm:items-center sm:shrink-0">
-        View Project <ArrowRight class="fill-current w-4 h-4" />
+        {description && <div class="mt-1 text-sm  leading-normal">{description}</div>}
+        <div class="hidden font-serif italic opacity-0 transition group-hover:opacity-100 sm:inline-flex sm:gap-1 sm:items-center sm:shrink-0">
+            View Project <ArrowRight class="fill-current w-4 h-4" />
+        </div>
     </div>
 </a>
