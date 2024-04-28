@@ -109,7 +109,7 @@ const siteConfig: SiteConfig = {
         },
         actions: [
             {
-                text: 'Get in Touch',
+                text: 'Let\'s talk',
                 href: '/contact'
             }
         ]
