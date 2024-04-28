@@ -21,11 +21,11 @@ const featuredProjects = projects.filter(({ data }) => data.isFeatured);
     {
         featuredProjects?.length > 0 && (
             <div class="mb-16 sm:mb-24">
-                <h2 class="mb-12 text-xl font-serif text-blue-700  italic sm:mb-16 sm:text-2xl">
+                <h2 class="mb-12 text-xl font-serif text-sky-700 italic sm:mb-16 sm:text-2xl">
                     Projects
-                    <div class="underline bg-blue-700 w-full h-[1px]" />
+                    <div class="underline bg-sky-700 bg w-full h-[1px]" />
                 </h2>
-                <div class="flex flex-wrap justify-between ">
+                <div class="flex flex-wrap justify-evenly">
                     {featuredProjects.map((project) => (
                         <ProjectPreview project={project} class="mb-10 sm:mb-12" headingLevel="h3" />
                     ))}
@@ -39,9 +39,9 @@ const featuredProjects = projects.filter(({ data }) => data.isFeatured);
     {
         featuredPosts?.length > 0 && (
             <div class="mb-16 sm:mb-24">
-                <h2 class="mb-12 text-xl font-serif text-blue-700  italic sm:mb-16 sm:text-2xl">
+                <h2 class="mb-12 text-xl font-serif text-sky-700 italic sm:mb-16 sm:text-2xl">
                     Writing
-                    <div class="underline bg-blue-700 w-full h-[1px]" />
+                    <div class="underline bg-sky-700 w-full h-[1px]" />
                 </h2>
 
                 {featuredPosts.map((post) => (
