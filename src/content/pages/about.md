@@ -5,7 +5,7 @@ seo:
   description: Learn more about the person behind the website and embark on a journey of inspiration and shared experiences.
   image:
     src: '/about.jpeg'
-    alt: A person sitting at a desk in front of a computer
+    alt: I being a cute unicorn
 ---
 
 
@@ -13,20 +13,19 @@ seo:
 
 
 
-## I belive in creating creating experiences that mean something to me and to someone spending time with my work
+## I Awesome,I writer, I artist,  I am baka, I brave, compassionate, kind, funny and very very smart. I Love cats, I might even be one.Totally a dumdum.
 
-##### I've always been inclined to art and design came to me a bit later. So now I use both to serve my vision and the people I work with
+##### I have speed run art and design in under a year, After I did hardcore enginerring I had 0 training, mentors or whatever the fancy people get before being unemployed. I studied on my own, struggled got job, got job again and I still crave more. I even applied to art colleges in canada for masters and scared the shit out of them.
 
-<div class="md:text-end flex justify-evenly ">
-<span class="md:w-1/2" ></span>
-<span class=" w-full md:w-1/2 text-wrap">
- Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.
- 
- It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum 
+<div class="md:text-end flex justify-evenly font-serif mt-5 ">
+  <span class="md:w-1/2" ></span>
+  <span class=" w-full md:w-1/2 text-wrap">
+    I currently work at <span class=" text-sky-700"> Twimbit </span> as a UX/UI and graphic desginer. I Also do personal projects like literally making a movie, painintg, posters, I write amazing books. and i can out poet eminem
  </span>
- </div>
+</div>
 
- ### Things I like
-#### I like cats, writing, MAMAMOO, Taylor Swift and storytelling. I've recently taken up korean and so far I think Im doing alright with it.
+<h3 class="text-sky-700 font-bold"> Things I like</h3>
 
- ### Things I Recomend
+I like cats (I'll say it a million times), writing, MAMAMOO, Taylor Swift and storytelling. I've recently taken up korean and so far I am completely nailing it, I know 5 languages btw.
+
+<h3 class="text-sky-700 font-bold">Things I Recommend</h3>
