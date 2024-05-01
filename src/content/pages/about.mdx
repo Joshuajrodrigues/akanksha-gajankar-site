@@ -8,6 +8,8 @@ seo:
     alt: I being a cute unicorn
 ---
 
+import BentoGrid from '../../components/BentoGrid.astro';
+export const components = {BentoGrid: BentoGrid}
 
 [<img src="/about.jpeg" width="250" height="250" alt="I being a cute unicorn" />](/about.jpeg)
 
@@ -29,3 +31,4 @@ seo:
  Cats, Fries, writing, color blue and violet, MAMAMOO, Taylor Swift and cats.
 
 <h3 class="text-sky-700 font-bold">Things I Recommend</h3>
+<BentoGrid/>
