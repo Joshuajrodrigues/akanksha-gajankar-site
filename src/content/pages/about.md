@@ -1,5 +1,5 @@
 ---
-title: About me
+title: About dumdum
 seo:
   title: About Me
   description: Learn more about the person behind the website and embark on a journey of inspiration and shared experiences.
@@ -13,19 +13,19 @@ seo:
 
 
 
-## I Awesome,I writer, I artist,  I am baka, I brave, compassionate, kind, funny and very very smart. I Love cats, I might even be one.Totally a dumdum.
+## You is Awesome,Is writer, Is artist,  Is baka, Is brave, compassionate, kind, funny and very very smart. Totally a dumdum.
 
-##### I have speed run art and design in under a year, After I did hardcore enginerring I had 0 training, mentors or whatever the fancy people get before being unemployed. I studied on my own, struggled got job, got job again and I still crave more. I even applied to art colleges in canada for masters and scared the shit out of them.
+##### You have speed ran art and design in under a year, After you did hardcore computer enginerring and had 0 training, mentors or whatever the fancy people get before being unemployed. You studied on your own, struggled got job, got job again and still crave more. You even applied to art colleges in canada for masters and scared the shit out of them.
 
 <div class="md:text-end flex justify-evenly font-serif mt-5 ">
   <span class="md:w-1/2" ></span>
   <span class=" w-full md:w-1/2 text-wrap">
-    I currently work at <span class=" text-sky-700"> Twimbit </span> as a UX/UI and graphic desginer. I Also do personal projects like literally making a movie, painintg, posters, I write amazing books. and i can out poet eminem
+    Currently working at <span class=" text-sky-700"> Twimbit </span> as a UX/UI and graphic desginer.Keeping them afloat, being the last funtioning braincell there. Also doing personal projects like literally making a movie, painting, posters, you write amazing books. and can out poet eminem. You've recently taken up korean and so far completely nailing it, You know 5 languages btw.
  </span>
 </div>
 
-<h3 class="text-sky-700 font-bold"> Things I like</h3>
+<h3 class="text-sky-700 font-bold"> Things You like</h3>
 
-I like cats (I'll say it a million times), writing, MAMAMOO, Taylor Swift and storytelling. I've recently taken up korean and so far I am completely nailing it, I know 5 languages btw.
+ Cats, Fries, writing, color blue and violet, MAMAMOO, Taylor Swift and cats.
 
 <h3 class="text-sky-700 font-bold">Things I Recommend</h3>
