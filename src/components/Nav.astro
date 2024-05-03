@@ -5,24 +5,27 @@ import siteConfig from '../data/site-config';
 
 const navLinks = siteConfig.headerNavLinks || [];
 ---
+
 <script>
-    
-    const open = document.querySelector('#open-burger') as HTMLElement;
-    const close = document.querySelector('#close-burger') as HTMLElement;
-                close.style.display = 'none'
-                open.style.display ='bloack'
     function menuToggle() {
+        const open = document.querySelector('#open-burger') as HTMLElement;
+        const close = document.querySelector('#close-burger') as HTMLElement;
         const menu = document.querySelector('.menu');
         const menuToggleBtn = document.querySelector('.menu-toggle');
         menuToggleBtn?.addEventListener('click', () => {
             const isMenuExpanded = menuToggleBtn.getAttribute('aria-expanded') === 'true';
-            if(isMenuExpanded){
-                open.style.display = 'block'
-                close.style.display ='none'
-            }else{
-                      close.style.display = 'block'
-                open.style.display ='none'
+            if (isMenuExpanded) {
+                close.classList.toggle('hidden');
+                open.classList.remove('hidden');
+            } else {
+                open.classList.toggle('hidden');
+                close.classList.remove('hidden');
             }
+            console.log('burgor', {
+                isMenuExpanded,
+                open: open.classList,
+                close: close.classList
+            });
             menuToggleBtn.classList.toggle('is-active');
             menuToggleBtn.setAttribute('aria-expanded', isMenuExpanded ? 'false' : 'true');
             menuToggleBtn.setAttribute('aria-label', isMenuExpanded ? 'Open Menu' : 'Close Menu');
@@ -42,10 +45,7 @@ const navLinks = siteConfig.headerNavLinks || [];
                     aria-expanded="false"
                     aria-controls="menu-items"
                 >
-                {
-
-                }
-                    <svg id="close-burger" xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" viewBox="0 0 48 48">
+                    <svg id="close-burger" class="hidden" xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" viewBox="0 0 48 48">
                         <>
                             <path fill="#45413c" d="M3.54 44.34a20.46 1.66 0 1 0 40.92 0a20.46 1.66 0 1 0-40.92 0" opacity="0.15" />
                             <path fill="#debb7e" d="M43.35 31.34v5c0 4-8.66 7.19-19.35 7.19S4.65 40.28 4.65 36.31v-5Z" />
@@ -252,5 +252,3 @@ const navLinks = siteConfig.headerNavLinks || [];
         }
     }
 </style>
-
-
