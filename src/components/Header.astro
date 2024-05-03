@@ -1,7 +1,7 @@
 ---
 import { marked } from 'marked';
 import siteConfig from '../data/site-config';
-import LottieAnimation from 'astro-integration-lottie/Lottie.astro';
+import LottieAnimation from 'astro-transitions-lottie/Lottie.astro';
 import lottie from '../../public/lotties/maui.json';
 ---
 
@@ -17,7 +17,7 @@ import lottie from '../../public/lotties/maui.json';
     }
     {
         siteConfig?.hero?.video?.src && (
-            <div class="w w-72">
+            <div class=" w-32 md:w-48">
                 <LottieAnimation src={'/lotties/maui.json'} autoplay="visible" />
             </div>
         )
