@@ -1,6 +1,8 @@
 ---
 import { marked } from 'marked';
 import siteConfig from '../data/site-config';
+import LottieAnimation from 'astro-integration-lottie/Lottie.astro';
+import lottie from '../../public/lotties/maui.json';
 ---
 
 <header class="w-full max-w-3xl mx-auto mb-12 sm:mb-16 flex justify-between items-center">
@@ -15,9 +17,9 @@ import siteConfig from '../data/site-config';
     }
     {
         siteConfig?.hero?.video?.src && (
-            <video muted autoplay loop class={'w-24'}>
-                <source src={siteConfig?.hero?.video?.src} />
-            </video>
+            <div class="w w-72">
+                <LottieAnimation src={'/lotties/maui.json'} autoplay="visible" />
+            </div>
         )
     }
     {siteConfig.subtitle && <p class="font-serif text-2xl leading-tight font-medium text-theme-foreground sm:text-4xl">{siteConfig.subtitle}</p>}

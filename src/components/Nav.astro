@@ -21,11 +21,7 @@ const navLinks = siteConfig.headerNavLinks || [];
                 open.classList.toggle('hidden');
                 close.classList.remove('hidden');
             }
-            console.log('burgor', {
-                isMenuExpanded,
-                open: open.classList,
-                close: close.classList
-            });
+
             menuToggleBtn.classList.toggle('is-active');
             menuToggleBtn.setAttribute('aria-expanded', isMenuExpanded ? 'false' : 'true');
             menuToggleBtn.setAttribute('aria-label', isMenuExpanded ? 'Open Menu' : 'Close Menu');
