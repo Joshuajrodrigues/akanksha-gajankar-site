@@ -117,7 +117,7 @@ const siteConfig: SiteConfig = {
 
     },
     subscribe: {
-        title: 'Subscribe to Dante Newsletter',
+        title: 'Subscribe to my newsletter',
         text: 'One update per week. All the latest posts directly in your inbox.',
         formUrl: '#'
     },
