@@ -1,21 +1,17 @@
 ---
 const items = [
     'https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmgwNDZmcDA5YWxhMjM2Z25ia3p2Nnc5bjRkNDU3dnlrbHR0YWhqeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/oe1gAM5OzAMlkHiInC/giphy.gif',
-    'https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWRoem01dWM1YWQybm0zcTVuZDZuOXN2MHJlMHM0anIwZWo1d2x3bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Ct2fBe0rc69nq/giphy.gif',
     'https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWZia3J2ZHNtanF6cnVibzZ4cnUxYXRwdnZoM21pcnkzYmMzazRicyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/W1AvlW3DrQjI8GyPqp/giphy.gif',
     'https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdnR3cmYyZzg0NGE5Z25lYnZwZG8wMXB2NmZjcHo1ODhsMThveGExeSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/9Oa8LmTKH3bfIm2nIc/giphy.gif',
     'https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDVlZTh2eWN4b3B6cmVnbGRhemM4aGw5Y3p3NTkxcXA2a3hmaG0wMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/L4ZXnMuqOhr6Q6RXli/giphy.gif',
-    'https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNnVtbDE1cWpwOGkxM285YWlrbjc1bDl1bjZqdWtwZDUzbnN0MGF1NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/aWXcysjbWXMoSkiDoV/giphy.gif',
-    'https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdjljaG9neHJucWZ6NDVhOW1hbmp0ZjRpMzltdjBjMXJxcGJ0dnFlbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/mbhseRYedlG5W/giphy.gif'
+    'https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNnVtbDE1cWpwOGkxM285YWlrbjc1bDl1bjZqdWtwZDUzbnN0MGF1NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/aWXcysjbWXMoSkiDoV/giphy.gif'
 ];
 ---
 
 <div class="grid auto-rows-[192px] md:grid-cols-3 gap-4">
     {
         items.map((item, i) => (
-            <div
-                class={`row-span-1 rounded-xl m-0 border-2 border-slate-400/10 bg-neutral-100 p-4 dark:bg-neutral-900 ${i === 3 || i === 6 ? 'col-span-2' : ''}`}
-            >
+            <div class={`row-span-1 rounded-xl m-0 border-2 border-slate-400/10 bg-neutral-100 p-4 dark:bg-neutral-900 ${i === 2 ? 'col-span-2' : ''}`}>
                 <img src={item} class=" m-[0px!important] w-full h-full " />
             </div>
         ))
