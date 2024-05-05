@@ -13,7 +13,7 @@ seo:
 
 ![Dark sphere](/post-5.jpg)
 
-**Note:** This post was created using Chat GPT to demonstrate the features of the _[Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/)_.
+
 
 In an era dominated by digital advancements, UxUi Designers play a crucial role in shaping the online landscape. As the creators of websites and web applications, developers carry the responsibility of ensuring the security and integrity of the platforms they build. With cyber threats on the rise, implementing robust security measures is no longer an option but a necessity. Here are some fundamental security measures that every UxUi Designer should be well-versed in:
 
