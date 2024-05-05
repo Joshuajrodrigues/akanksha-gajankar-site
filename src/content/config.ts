@@ -34,7 +34,6 @@ const pages = defineCollection({
 const projects = defineCollection({
     schema: ({ image }) => z.object({
         title: z.string(),
-        cover: image().optional(),
         description: z.string().optional(),
         publishDate: z.coerce.date(),
         isFeatured: z.boolean().default(false),

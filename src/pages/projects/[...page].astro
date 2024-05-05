@@ -25,7 +25,7 @@ const portfolio = page.data;
     showHeader={false}
 >
     <h1 class="mb-12 text-2xl leading-tight font-serif italic sm:mb-16 sm:text-4xl">Projects</h1>
-    <div class="flex flex-wrap justify-between">
+    <div class="flex flex-wrap justify-center md:justify-between items-baseline">
         {portfolio.map((project) => <ProjectPreview project={project} class="mb-10 sm:mb-12" />)}
     </div>
     <Pagination page={page} class="my-16 sm:my-24" />

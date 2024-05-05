@@ -3,14 +3,14 @@ title: 'TimeWarp - Travel Agency Website'
 description: Explore the possibilities of time travel through an immersive website for a fictional travel agency, complete with dynamic destination timelines and interactive historical events.
 publishDate: 'Oct 2 2023'
 isFeatured: true
-cover: '../projectData/project-2.jpg'
+
 seo:
   image:
-    src: '/project-2.jpg'
+    src: '/projectDataHero/project-2.jpg'
     alt: Project preview
 ---
 
-![Project preview](/project-2.jpg)
+![Project preview](/projectData/project-2.jpg)
 
 **Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
 

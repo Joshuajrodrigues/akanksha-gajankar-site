@@ -18,7 +18,14 @@ const hero = siteConfig.hero;
                 </figure>
             )}
 
-            {hero.text && <div class="max-w-none prose prose-dante sm:prose-lg uppercase" set:html={marked.parse(hero.text)} />}
+            {hero.text && (
+                <div
+                    class="max-w-none prose prose-[
+                
+            ] sm:prose-lg uppercase"
+                    set:html={marked.parse(hero.text)}
+                />
+            )}
             {hero.text2 && <div class="max-w-none text-right  prose prose-dante sm:prose-lg uppercase" set:html={marked.parse(hero.text2)} />}
             {hero.actions && hero.actions.length > 0 && (
                 <div class="flex flex-wrap gap-4">

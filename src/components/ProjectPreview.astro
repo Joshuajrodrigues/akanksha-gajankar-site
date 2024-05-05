@@ -7,7 +7,7 @@ type Props = { project: CollectionEntry<'projects'>; class?: string; headingLeve
 
 const { project, class: className, headingLevel = 'h2' } = Astro.props;
 
-const { title, description, seo, cover } = project.data;
+const { title, description, seo } = project.data;
 const TitleTag = headingLevel;
 ---
 
