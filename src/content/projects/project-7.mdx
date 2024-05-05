@@ -10,8 +10,45 @@ seo:
 ---
 
 import ImageLeftTextRight from '../../components/ImageLeftTextRight.astro'
+import ImageRightTextLeft from '../../components/ImageRightTextLeft.astro'
+import ImageGrid from '../../components/ImageGrid.astro'
 
 
-![Project preview](/projectDataHero/project-7.jpg)
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quibusdam necessitatibus voluptatem incidunt amet libero aliquam deserunt hic cupiditate magni, ipsam praesentium voluptatibus veritatis at mollitia blanditiis. Necessitatibus, non architecto.Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quibusdam necessitatibus voluptatem incidunt amet libero aliquam deserunt hic cupiditate magni, ipsam praesentium voluptatibus veritatis at mollitia blanditiis. Necessitatibus, non architecto.Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quibusdam necessitatibus voluptatem incidunt amet libero aliquam deserunt hic cupiditate magni, ipsam praesentium voluptatibus veritatis at mollitia blanditiis. Necessitatibus, non architecto.
+<ImageLeftTextRight>
+  <img src="/projectDataHero/project-7.jpg" slot="content-image"/>
+  <div slot="content-text">
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Autem quibusdam necessitatibus voluptatem incidunt amet libero aliquam 
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Autem quibusdam necessitatibus voluptatem incidunt amet libero aliquam 
+    </p>
+  </div>
+</ImageLeftTextRight>
+<ImageGrid>
+    <img src="/projectDataHero/project-7.jpg" />
+    <img src="/projectDataHero/project-7.jpg" />
+    <img src="/projectDataHero/project-7.jpg" />
+    <img src="/projectDataHero/project-7.jpg" />
+    <img src="/projectDataHero/project-7.jpg" />
+    <img src="/projectDataHero/project-7.jpg" />
+</ImageGrid>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+Autem quibusdam necessitatibus voluptatem incidunt amet libero aliquam  
+Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+Autem quibusdam necessitatibus voluptatem incidunt amet libero aliquam 
+<ImageRightTextLeft>
+ <img src="/projectDataHero/project-7.jpg" slot="content-image"/>
+  <div slot="content-text">
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Autem quibusdam necessitatibus voluptatem incidunt amet libero aliquam 
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Autem quibusdam necessitatibus voluptatem incidunt amet libero aliquam 
+    </p>
+  </div>
+</ImageRightTextLeft>
